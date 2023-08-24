@@ -1,15 +1,15 @@
 const configuration = {
   site: {
-    name: 'MakerKit - Next.js Tina CMS Blog Starter',
+    name: 'JuustJulees Portfolio',
     description:
-      'MakerKit is the SaaS starter built with Next.js, Firebase and' +
-      ' Tailwind that lets you launch your next idea in minutes.',
+      'This is a portfolio site for JuustJulees' +
+      'made with love from @diedose.',
     themeColor: '#efee00',
-    siteUrl: 'https://makerkit.dev',
-    siteName: 'MakerKit Next.js Tina CMS Blog Starter',
-    twitterHandle: 'makerkit_dev',
-    githubHandle: 'makerkit',
-    language: 'en',
+    siteUrl: 'https://juust-julees.netlify.app',
+    siteName: 'JuustJulees Portfolio',
+    twitterHandle: 'juustjules',
+    githubHandle: 'diedose',
+    language: 'de',
   },
   blog: {
     maxReadMorePosts: 6,

@@ -8,18 +8,15 @@ import shouldUseTinaEditor from "~/lib/should-use-tina-editor";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <TinaWrapper>
       <ThemeProvider>
         <Component {...pageProps} />
       </ThemeProvider>
-    </TinaWrapper>
   );
 }
 
 function TinaWrapper(props: React.PropsWithChildren<{}>) {
   if (shouldUseTinaEditor()) {
     const Tina = dynamic(
-      () => import('../.tina/components/TinaDynamicProvider'),
       {
         ssr: false,
       }

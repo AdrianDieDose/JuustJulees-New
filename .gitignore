@@ -43,4 +43,5 @@ public/robots.txt
 public/sitemap*.xml
 
 .env.local
-.tina
+
+node_modules
